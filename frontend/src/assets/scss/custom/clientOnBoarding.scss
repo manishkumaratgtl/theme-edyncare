@@ -1,0 +1,198 @@
+@import "./master";
+
+
+.form-group{
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+}
+
+.onboarding_form {
+    //    border: 2px solid grey;
+    padding: 50px !important;
+    border-radius: 25px 25px
+}
+
+.form-control {
+    margin-bottom: 0.9rem;
+}
+
+input.form-control {
+    font-size: 1.0rem;
+    border: none;
+    background-color: white !important;
+    border-bottom: 2px solid $c5 !important;
+    padding-right: none !important;
+    color: grey !important;
+    width: 100%;
+    &:focus{
+        border-style: solid;
+        border: none;
+        color: $c2 !important;
+        border-bottom: 2px solid $c2 !important;
+    };  
+}
+
+
+
+.form-control.is-invalid~.invalid-feedback{
+    color: $c8;
+}
+
+input.form-control.is-valid{
+    border: none;
+    background-color: white !important;
+    border-bottom: 2px solid $c2 !important;
+    color: $c2 !important;
+}
+
+input.form-control.is-invalid{
+    border: none;
+    background-color: white !important;
+    border-bottom: 2px solid $c8 !important;
+    color: $c2 !important;
+}
+
+input.form-control[type="tel"]{
+    border-radius: 0%;
+}
+
+input.form-control[type="date"]{
+    color: grey !important;
+    border-bottom: 2px solid $c5 !important;
+    border-radius: 0%;
+    background: transparent url("../../images/icons/arrow.svg") no-repeat 100% center !important;
+    &:hover{
+        background: transparent url("../../images/icons/arrow.svg") no-repeat 100% center !important;
+    }
+}
+
+select.form-control{
+    font-size: 1.0rem;
+    border: none;
+    background-color: white !important;
+    border-bottom: 2px solid $c5 !important;
+    &:focus{
+        border-bottom: 2px solid $c2 !important;
+    }
+}
+
+
+input.form-control[type="date"].is-valid{
+    color: $c2 !important;
+    border-bottom: 2px solid $c2 !important;
+}
+
+input.form-control[type="date"].is-invalid{
+    border-bottom: 2px solid $c8 !important;
+}
+
+input.form-control[type="date"]{
+    border-bottom: 2px solid $c5 !important;
+    &:focus{
+        border-bottom: 2px solid $c2 !important;
+    }
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: none;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}
+
+select.form-control{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: 1.0rem;
+    border: none;
+    background-color: white !important;
+    border-bottom: 2px solid $c5 !important;
+    width: 100%;
+    border-radius: 0%;
+    color: grey!important;
+    background: transparent url("../../images/icons/arrow.svg") no-repeat 100% center !important;
+    &:active{
+        //background: red !important;
+    }
+}
+
+select.form-control.is-valid{
+    font-size: 1.0rem;
+    border: none;
+    background-color: white !important;
+    border-bottom: 2px solid $c2 !important;
+    width: 100%;
+    border-radius: 0%;
+    color: $c2 !important;
+}
+
+select.form-control.is-invalid{
+    border: none;
+    background-color: white !important;
+    border-bottom: 2px solid $c8 !important;
+    border-radius: 0%;
+}
+
+textarea.form-control{
+    font-size: 1.0rem;
+    border: 1px solid $c5 !important;
+    background-color: white !important;
+    padding-right: none !important;
+    width: 100%;
+    color: $c2 !important;
+    font-family: F37Ginger-light;
+    &:focus{
+        box-shadow: none;
+        border: 1px solid $c2 !important;
+    }
+}
+
+.question{
+    border: none;
+    margin: auto;
+    padding: .375rem .75rem;
+    color: grey !important;
+    &:active{
+        color: red!important;
+    }
+}
+
+.question.is-valid{
+    border: none;
+    margin: auto;
+    padding: .375rem .75rem;
+    color: grey !important;
+    border-bottom: 2px solid $c2 !important;
+}
+
+.question.is-invalid{
+    border: none;
+    margin: auto;
+    padding: .375rem .75rem;
+    color: grey !important;
+    border-bottom: 2px solid $c8 !important;
+}
+
+.btn-next{
+    border: none;
+    background-color: $c5 !important;
+    color: $c2 !important;
+    max-width: 129px;
+    &:hover{
+        background-color: $c2 !important;
+        color: $c5 !important; 
+    }
+    &:focus{
+        box-shadow: none;
+        background-color: $c2 !important;
+        color: $c5 !important; 
+    }
+}
+
+.invalid-feedback {
+    font-family: F37Ginger-light;
+}

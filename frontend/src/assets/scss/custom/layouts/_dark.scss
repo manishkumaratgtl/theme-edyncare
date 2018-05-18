@@ -1,0 +1,42 @@
+/*====== Dark Layout Style Here ======*/
+body.dark-mode {
+  color: $dark-bg-color;
+  background-image: $dark-layout-bg;
+}
+.dark-mode {
+  background-color: $dark-bg-container;
+  .loader-overlay  {
+    background-color: rgba(0,0,0,0.8);
+  }
+  //main section
+  .rct-header, .rct-footer, .rct-block-footer, .card-footer, .list-group-item, .dropdown-menu, .report-title, .modal-content, input:not(.input-search),
+  select, .rct-filter, .report-status, .button-nav-wrapper button, [role="document"], textarea, .listSection, .sweet-alert, .rct-wysiwyg-editor, .bg-light, .bg-light-yellow, .timeline-Widget {
+    background-color: $dark-bg !important;
+  }
+  .chat-box-main, .chat-sidebar, .drawer-wrapper div, .comment-box, .card-base, .rct-session-wrapper .session-inner-wrapper .session-body ,.todo-wrapper .task-box{
+    background-color: $dark-bg-container;
+  }
+  h1,h2,h3,h4,h5,h6,p, span, a, table, th, td, select, input {
+    color: $dark-bg-color !important;
+  }
+  input::placeholder,textarea::placeholder, .form-control , .rct-block * ,.header-title, .humburger, .header-icon, .notification-icon a button, .cart-icon a button, .text-muted, .page-title h2, .active.breadcrumb-item,
+  .text-dark, textarea {
+    color: $dark-bg-color !important;
+  }
+  .pricing-wrapper, .about-wrapper, .panel-wrapper, .list-wrapper, .menu-paper-wrapper, .popover-wrapper, .date-time-wrapper,
+  .stepper-wrapper, .tabs-wrapper, .textfields-wrapper, .select-wrapper, .re-chart-wrapper, .icons-wrapper, .data-table-wrapper,
+  .redux-table-wrapper, .divider-wrapper, .drawer-wrapper, .feedback-wrapper, .userProfile-wrapper, .avatar-wrapper,  .rct-block  {
+    * {
+      color: $dark-bg-color !important;
+    }
+  }
+  .rct-block, .card, .panel, .rct-tabs header, .pricing-box, .chat-bubble.even, .task-detail-top, .btn-light i, .btn-light {
+    background-color: $dark-bg;
+    color: $dark-bg-color;
+    border-color: $dark-border-color;
+  }
+  .rct-block *, input:not(.input-search), textarea, .modal-header, .modal-footer, .report-status *, .report-status,
+  .rct-mail-wrapper *, .todo-wrapper *, .chat-wrapper *, .dropdown *, .chat-head  {
+    border-color: $dark-border-color !important;
+  }
+}

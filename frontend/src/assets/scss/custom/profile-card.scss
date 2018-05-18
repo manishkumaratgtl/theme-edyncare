@@ -1,0 +1,89 @@
+@import "./master";
+.col .row{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+#profile-card{
+    max-width: 1200px;
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 0;
+    padding-right:0;
+    overflow:hidden;
+    
+    
+}
+#profile-card .header{
+    height: 90px;
+    width: 100%;
+    background-color: $c2;
+    border-bottom: 3px solid #F2989A;
+}
+
+.profile-name h1{
+font-family: F37Ginger-Regular;
+font-size: 40px;
+color: #32535A;
+text-align: center;
+}
+.profile-name div{
+    font-family: F37Ginger-Regular;
+    color: #32535A;
+    text-align: center;
+    }
+#summary-items{
+    display: flex;
+    max-width:50%;
+    min-width: 335px;
+    margin: auto;
+     
+}
+.summary-item{
+    flex: 1;
+    margin:0 auto;
+}
+
+.summary-item h1{
+        /* Distance: */
+        font-family: F37Ginger-Regular;
+        font-size: 18px;
+        width:auto;
+        text-align: center;
+        line-height: 20px;
+     
+
+    }
+    .summary-item p{
+      /* 5 miles: */
+        font-family: F37Ginger-Light;
+        font-size: 15px;
+        color: #32535A;
+        text-align: center;
+        width:auto;
+
+    }
+    .profile-item {
+        padding-left:39px;
+        padding-right:39px; 
+        padding-bottom:16px; 
+    }
+    .profile-item h3{
+        font-family: F37Ginger-Regular;
+        font-size: 18px;
+        color: #33535C;
+        letter-spacing: 0;
+        line-height: 26px;
+    }
+    .profile-item p{
+        font-family: F37Ginger-Light;
+        font-size: 15px;
+        color: #33535C;
+        letter-spacing: 0;
+        line-height: 20px;
+    }
+   
+

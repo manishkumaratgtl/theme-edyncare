@@ -1,0 +1,25 @@
+.collapseItem {
+  margin: 5px;
+  background-color: #fff; }
+
+.content {
+  padding: 0px;
+  text-align: left; }
+  .content .table {
+    margin-bottom: 0; }
+    .content .table td, .content .table th {
+      vertical-align: middle; }
+    .content .table .mRight {
+      margin-right: 20px; }
+
+/* JS calculated height - the most accurate */
+.panel {
+  background-color: #F9F9F9;
+  padding: 20px; }
+  .panel .panel-heading {
+    cursor: pointer; }
+  .panel .panel-collapse {
+    overflow: hidden;
+    transition: height 0.3s ease-out; }
+  .panel .panel-body {
+    border: none !important; }

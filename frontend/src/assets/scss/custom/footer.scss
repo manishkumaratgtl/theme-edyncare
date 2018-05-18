@@ -1,0 +1,115 @@
+@import "./master";
+
+.bg-style{
+    background-color: $c5;
+}
+.nav-stacked  li {
+    width: 100%;
+    color: $c3;
+    text-decoration: none  !important;
+}
+.nav-stacked  li a,.nav-stacked  li a:hover li{
+    color: $c3;
+    text-decoration: none  !important;
+}
+
+
+.margin-footer-copyrights{
+    margin: 35px 0 35px 0;
+}
+.margin-footer {
+    margin-top: 20px;
+}
+.p-10{
+    padding-right: 10px;
+    padding-left: 10px;
+    @media screen and (max-width: 500px) {
+        padding-right: 15px;
+        padding-left: 15px;
+       } 
+}
+.image-size{
+    float: left;
+    height: 15px;
+    margin-top: 3px;
+    @media screen and (max-width: 1500px) {
+        height: 18px;
+        margin-top: 2px;
+       } 
+       @media screen and (max-width: 500px) {
+        height: 18px;
+        margin-top: 2px;
+       } 
+       @media screen and (max-width: 1000px) {
+        height: 18px;
+        margin-top: 2px;
+       } 
+       
+}
+.image-size-email{   
+    float: left;
+    height: 13px;
+    margin-top: 3px;
+    @media screen and (max-width: 1400px) {
+        height: 15px;
+        margin-top: 2px;
+       } 
+       @media screen and (max-width: 500px) {
+        height: 15px;
+        margin-top: 5px;
+       } 
+       @media screen and (max-width: 1000px) {
+        height: 15px;
+        margin-top: 5px;
+       } 
+}
+.image-text-email,.image-text-email:hover{
+    float: left;
+    font-size : smaller;
+    text-decoration: none  !important;
+    color: $c3;
+    @media screen and (max-width: 1500px) {
+        font-size: 12px;
+       } 
+       @media screen and (max-width: 1050px ) {
+        font-size: 10px;
+       } 
+       @media screen and (max-width: 800px ) {
+        font-size: 16px;
+       } 
+       @media screen and (max-width: 500px) {
+        font-size: 16px;
+       } 
+}
+.image-size-social {
+    float: left;
+    height: 15px;
+    margin: 5px;
+}
+.margin-left{
+    margin-left: 15%;
+    @media screen and (max-width: 1200px) {
+        margin-left: auto;
+       } 
+}
+.hidden-link{
+    visibility: hidden ;
+  @media screen and (max-width: 700px) {
+    display: none;
+  }
+}
+
+.footer h1, .footer h2, .footer h3, .footer h4, .footer ul, .footer li, .footer a  {
+    color: #E4F0E5 !important;
+}
+
+.footer p {
+    color: white !important;
+}
+
+h5{
+    font-family: F37Ginger-Light;
+    font-size: 14px;
+    color: $c2 !important;
+    line-height: 20px;
+}

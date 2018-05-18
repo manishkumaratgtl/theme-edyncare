@@ -1,0 +1,113 @@
+.hoverDiv:nth-child(2n) {
+  background: #DCE8E0; }
+
+.hoverDiv {
+  background: #E0EDE3; }
+
+.spanBlock {
+  display: block;
+  font-size: 14px; }
+
+.accordianCardBG {
+  background: #FBF8EF; }
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #F2989A;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s; }
+
+.slider:hover {
+  opacity: 1; }
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #1D4042;
+  background: #FFFFFF;
+  cursor: pointer; }
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #F9F7EF;
+  cursor: pointer; }
+
+.btn-outline-status {
+  color: #FF9999;
+  background-color: transparent;
+  background-image: none;
+  border-color: #FF9999; }
+
+.btn-outline-status.disabled, .btn-outline-status:disabled {
+  color: #FF9999;
+  background-color: transparent; }
+
+.modal-body {
+  word-wrap: break-word; }
+
+.enquiry-form {
+  padding-bottom: 0.7rem;
+  padding-left: 10px;
+  padding: 50px !important;
+  background-color: white !important;
+  border: 2px solid transparent; }
+  .enquiry-form input {
+    color: red !important; }
+
+.enquiry-form:hover {
+  border: 2px solid #32525B !important; }
+
+.btn-carer {
+  border: none;
+  background-color: white !important;
+  color: #32525B !important;
+  max-width: 129px; }
+
+.btn-carer:hover {
+  background-color: #1D4042 !important;
+  color: #EDF4F7 !important; }
+
+.btn-carer:focus {
+  box-shadow: none;
+  background-color: #1D4042 !important;
+  color: #EDF4F7 !important; }
+
+.btn-client {
+  border: none;
+  background-color: white !important;
+  color: #32525B !important;
+  max-width: 129px; }
+
+.btn-client:hover {
+  background-color: #EDF4F7 !important;
+  color: #1D4042 !important; }
+
+.btn-client:focus {
+  box-shadow: none;
+  background-color: #EDF4F7 !important;
+  color: #1D4042 !important; }
+
+.btn-login {
+  border: none;
+  background-color: white !important;
+  color: #32525B !important;
+  max-width: 129px; }
+
+.btn-login:hover {
+  background-color: #FF9999 !important;
+  color: white !important; }
+
+.btn-login:focus {
+  box-shadow: none;
+  background-color: #FF9999 !important;
+  color: white !important; }

@@ -1,0 +1,163 @@
+.hoverDiv:nth-child(2n) {
+  background: #DCE8E0; }
+
+.hoverDiv {
+  background: #E0EDE3; }
+
+.spanBlock {
+  display: block;
+  font-size: 14px; }
+
+.accordianCardBG {
+  background: #FBF8EF; }
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #F2989A;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s; }
+
+.slider:hover {
+  opacity: 1; }
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #1D4042;
+  background: #FFFFFF;
+  cursor: pointer; }
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #F9F7EF;
+  cursor: pointer; }
+
+.btn-outline-status {
+  color: #FF9999;
+  background-color: transparent;
+  background-image: none;
+  border-color: #FF9999; }
+
+.btn-outline-status.disabled, .btn-outline-status:disabled {
+  color: #FF9999;
+  background-color: transparent; }
+
+.modal-body {
+  word-wrap: break-word; }
+
+.bg-style {
+  background-color: #EDF4F7; }
+
+.nav-stacked li {
+  width: 100%;
+  color: #66564A;
+  text-decoration: none  !important; }
+
+.nav-stacked li a, .nav-stacked li a:hover li {
+  color: #66564A;
+  text-decoration: none  !important; }
+
+.margin-footer-copyrights {
+  margin: 35px 0 35px 0; }
+
+.margin-footer {
+  margin-top: 20px; }
+
+.p-10 {
+  padding-right: 10px;
+  padding-left: 10px; }
+  @media screen and (max-width: 500px) {
+    .p-10 {
+      padding-right: 15px;
+      padding-left: 15px; } }
+
+.image-size {
+  float: left;
+  height: 15px;
+  margin-top: 3px; }
+  @media screen and (max-width: 1500px) {
+    .image-size {
+      height: 18px;
+      margin-top: 2px; } }
+  @media screen and (max-width: 500px) {
+    .image-size {
+      height: 18px;
+      margin-top: 2px; } }
+  @media screen and (max-width: 1000px) {
+    .image-size {
+      height: 18px;
+      margin-top: 2px; } }
+
+.image-size-email {
+  float: left;
+  height: 13px;
+  margin-top: 3px; }
+  @media screen and (max-width: 1400px) {
+    .image-size-email {
+      height: 15px;
+      margin-top: 2px; } }
+  @media screen and (max-width: 500px) {
+    .image-size-email {
+      height: 15px;
+      margin-top: 5px; } }
+  @media screen and (max-width: 1000px) {
+    .image-size-email {
+      height: 15px;
+      margin-top: 5px; } }
+
+.image-text-email, .image-text-email:hover {
+  float: left;
+  font-size: smaller;
+  text-decoration: none  !important;
+  color: #66564A; }
+  @media screen and (max-width: 1500px) {
+    .image-text-email, .image-text-email:hover {
+      font-size: 12px; } }
+  @media screen and (max-width: 1050px) {
+    .image-text-email, .image-text-email:hover {
+      font-size: 10px; } }
+  @media screen and (max-width: 800px) {
+    .image-text-email, .image-text-email:hover {
+      font-size: 16px; } }
+  @media screen and (max-width: 500px) {
+    .image-text-email, .image-text-email:hover {
+      font-size: 16px; } }
+
+.image-size-social {
+  float: left;
+  height: 15px;
+  margin: 5px; }
+
+.margin-left {
+  margin-left: 15%; }
+  @media screen and (max-width: 1200px) {
+    .margin-left {
+      margin-left: auto; } }
+
+.hidden-link {
+  visibility: hidden; }
+  @media screen and (max-width: 700px) {
+    .hidden-link {
+      display: none; } }
+
+.footer h1, .footer h2, .footer h3, .footer h4, .footer ul, .footer li, .footer a {
+  color: #E4F0E5 !important; }
+
+.footer p {
+  color: white !important; }
+
+h5 {
+  font-family: F37Ginger-Light;
+  font-size: 14px;
+  color: #32525B !important;
+  line-height: 20px; }

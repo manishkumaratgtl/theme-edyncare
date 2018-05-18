@@ -1,0 +1,132 @@
+.hoverDiv:nth-child(2n) {
+  background: #DCE8E0; }
+
+.hoverDiv {
+  background: #E0EDE3; }
+
+.spanBlock {
+  display: block;
+  font-size: 14px; }
+
+.accordianCardBG {
+  background: #FBF8EF; }
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #F2989A;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s; }
+
+.slider:hover {
+  opacity: 1; }
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #1D4042;
+  background: #FFFFFF;
+  cursor: pointer; }
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #F9F7EF;
+  cursor: pointer; }
+
+.btn-outline-status {
+  color: #FF9999;
+  background-color: transparent;
+  background-image: none;
+  border-color: #FF9999; }
+
+.btn-outline-status.disabled, .btn-outline-status:disabled {
+  color: #FF9999;
+  background-color: transparent; }
+
+.modal-body {
+  word-wrap: break-word; }
+
+.col .row {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0; }
+
+#profile-card {
+  max-width: 1200px;
+  border-radius: 10px;
+  background-color: white;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden; }
+
+#profile-card .header {
+  height: 90px;
+  width: 100%;
+  background-color: #32525B;
+  border-bottom: 3px solid #F2989A; }
+
+.profile-name h1 {
+  font-family: F37Ginger-Regular;
+  font-size: 40px;
+  color: #32535A;
+  text-align: center; }
+
+.profile-name div {
+  font-family: F37Ginger-Regular;
+  color: #32535A;
+  text-align: center; }
+
+#summary-items {
+  display: flex;
+  max-width: 50%;
+  min-width: 335px;
+  margin: auto; }
+
+.summary-item {
+  flex: 1;
+  margin: 0 auto; }
+
+.summary-item h1 {
+  /* Distance: */
+  font-family: F37Ginger-Regular;
+  font-size: 18px;
+  width: auto;
+  text-align: center;
+  line-height: 20px; }
+
+.summary-item p {
+  /* 5 miles: */
+  font-family: F37Ginger-Light;
+  font-size: 15px;
+  color: #32535A;
+  text-align: center;
+  width: auto; }
+
+.profile-item {
+  padding-left: 39px;
+  padding-right: 39px;
+  padding-bottom: 16px; }
+
+.profile-item h3 {
+  font-family: F37Ginger-Regular;
+  font-size: 18px;
+  color: #33535C;
+  letter-spacing: 0;
+  line-height: 26px; }
+
+.profile-item p {
+  font-family: F37Ginger-Light;
+  font-size: 15px;
+  color: #33535C;
+  letter-spacing: 0;
+  line-height: 20px; }

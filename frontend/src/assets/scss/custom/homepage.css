@@ -1,0 +1,37 @@
+.background-bottom-left {
+  position: absolute !important;
+  left: 0px;
+  bottom: 0px; }
+
+.background-top-left {
+  position: absolute !important;
+  left: 0px;
+  top: 0px; }
+
+.background-bottom-right {
+  position: absolute !important;
+  right: 0px;
+  bottom: 0px; }
+
+.background-top-right {
+  position: absolute !important;
+  right: 0px;
+  top: 0px; }
+
+.background-right {
+  right: 0px;
+  max-width: 100% !important;
+  height: auto;
+  justify-content: center;
+  margin: auto; }
+
+.background-leaves {
+  position: absolute !important;
+  z-index: -1; }
+
+.WWAimg {
+  height: 66px; }
+
+@media (max-width: 950px) {
+  .big_only {
+    display: none !important; } }

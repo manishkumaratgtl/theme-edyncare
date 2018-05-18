@@ -1,0 +1,277 @@
+.hoverDiv:nth-child(2n) {
+  background: #DCE8E0; }
+
+.hoverDiv {
+  background: #E0EDE3; }
+
+.spanBlock {
+  display: block;
+  font-size: 14px; }
+
+.accordianCardBG {
+  background: #FBF8EF; }
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #F2989A;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s; }
+
+.slider:hover {
+  opacity: 1; }
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #1D4042;
+  background: #FFFFFF;
+  cursor: pointer; }
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #F9F7EF;
+  cursor: pointer; }
+
+.btn-outline-status {
+  color: #FF9999;
+  background-color: transparent;
+  background-image: none;
+  border-color: #FF9999; }
+
+.btn-outline-status.disabled, .btn-outline-status:disabled {
+  color: #FF9999;
+  background-color: transparent; }
+
+.modal-body {
+  word-wrap: break-word; }
+
+.radio-container {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  padding: 0px !important; }
+
+.radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  visibility: hidden; }
+
+.checkmark {
+  /*color: #6c757d;
+    background-color: transparent;
+    border:1px solid #6c757d;
+    border-radius: 2px;*/
+  padding: 8px 15px;
+  margin: 0px;
+  display: block; }
+
+.p-10px {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+@media (max-width: 767px) {
+  .p-10px {
+    margin: 0px; } }
+
+.radio-container:hover input ~ .checkmark {
+  color: #fff; }
+
+.radio-container input:checked ~ .checkmark {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d; }
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none; }
+
+.radio-container input:checked ~ .checkmark:after {
+  display: block; }
+
+.radio-container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 0px;
+  height: 0px;
+  background: white; }
+
+@media (max-width: 700) {
+  .mx1-1 {
+    background-color: red; } }
+
+@media (min-width: 700) {
+  .mx1-1 {
+    margin: 10px; } }
+
+.ObPageTitle {
+  margin-bottom: 40px; }
+
+.bold {
+  font-family: F37Ginger; }
+
+.progressbar li:after {
+  width: 100%;
+  height: 2px;
+  content: '';
+  position: absolute;
+  background-color: #7d7d7d;
+  top: 15px;
+  left: -50%;
+  z-index: -1; }
+
+.progressbar li:first-child:after {
+  content: none; }
+
+.progressbar li.active {
+  border-color: #1D4042;
+  color: #1D4042; }
+
+.progressbar li.active:before {
+  border-color: #1D4042; }
+
+.progressbar li.active + li:after {
+  background-color: #1D4042; }
+
+.progressbar li.disabled {
+  color: #66564A; }
+
+.progressbar li.disabled:before {
+  border-color: #66564A; }
+
+.progressbar li.disabled + li:after {
+  background-color: #FF9999; }
+
+input.form-control.select_onboarding {
+  border-bottom: 2px solid #F9F7EF !important; }
+  input.form-control.select_onboarding:focus {
+    border-bottom: 2px solid #32525B !important; }
+
+input.form-control.is-valid {
+  border-bottom: 2px solid #32525B !important;
+  color: #32525B !important; }
+
+input.form-control.is-invalid {
+  border-bottom: 2px solid #FF9999 !important;
+  color: #32525B !important; }
+
+textarea.form-control.select_onboarding {
+  border: 1px solid #F9F7EF !important; }
+  textarea.form-control.select_onboarding:focus {
+    border: 1px solid #32525B !important; }
+
+textarea.form-control.is-valid {
+  border: 1px solid #32525B !important; }
+
+select.form-control.select_onboarding {
+  font-size: 1.0rem;
+  border: none;
+  background-color: white !important;
+  border-bottom: 2px solid #F9F7EF !important; }
+  select.form-control.select_onboarding:focus {
+    border-bottom: 2px solid #32525B !important; }
+
+input.form-control[type="date"].select_onboarding {
+  border-bottom: 2px solid #F9F7EF !important; }
+  input.form-control[type="date"].select_onboarding:focus {
+    border-bottom: 2px solid #32525B !important; }
+
+input.form-control[type="date"].select_onboarding.is-valid {
+  border-bottom: 2px solid #32525B !important; }
+
+input.form-control[type="date"].select_onboarding.is-invalid {
+  border-bottom: 2px solid #FF9999 !important; }
+
+.btn-next7 {
+  border: none;
+  background-color: #F9F7EF !important;
+  color: #32525B !important;
+  max-width: 129px; }
+  .btn-next7:hover {
+    background-color: #32525B !important;
+    color: #EDF4F7 !important; }
+  .btn-next7:focus {
+    box-shadow: none;
+    background-color: #32525B !important;
+    color: #EDF4F7 !important; }
+
+.progressbar {
+  counter-reset: step;
+  width: 100%; }
+
+.progressbar li {
+  list-style-type: none;
+  width: 25%;
+  float: left;
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  color: #1D4042;
+  margin: 0 auto 0 auto; }
+
+.progressbar li:before {
+  width: 30px;
+  height: 30px;
+  content: counter(step);
+  counter-increment: step;
+  line-height: 30px;
+  border: 2px solid #1D4042;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  background-color: white; }
+
+.progressbar li:after {
+  width: 100%;
+  height: 2px;
+  content: '';
+  position: absolute;
+  background-color: #1D4042 !important;
+  top: 15px;
+  left: -50%;
+  z-index: -2;
+  color: !important; }
+
+.progressbar li:first-child:after {
+  content: none; }
+
+.progressbar li.active {
+  color: white !important; }
+
+.progressbar li.active p {
+  font-weight: 900;
+  font-size: 1rem; }
+
+.progressbar li.active:before {
+  border-color: #1D4042;
+  background-color: #1D4042; }
+
+.progressbar li.active + li:after {
+  background-color: #32525B; }
+
+.progressbar li.completed {
+  color: white; }
+
+.progressbar li.completed:before {
+  border-color: #1D4042;
+  background-color: #1D4042; }
+
+.progressbar li.completed + li:after {
+  background-color: #1D4042; }
+
+.containerProgress li.disabled::before {
+  border-color: #1D4042 !important;
+  color: #1D4042 !important; }

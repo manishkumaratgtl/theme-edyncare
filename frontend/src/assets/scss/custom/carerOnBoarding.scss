@@ -1,0 +1,278 @@
+@import "./master";
+
+
+.radio-container {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding: 0px!important;
+}
+
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    visibility:hidden;
+}
+
+.checkmark {
+    /*color: #6c757d;
+    background-color: transparent;
+    border:1px solid #6c757d;
+    border-radius: 2px;*/
+    padding:8px 15px;
+    margin:0px;
+    display:block;
+}
+.p-10px {
+    margin-left:10px;
+    margin-right:10px;
+}
+@media (max-width: 767px) {
+    .p-10px {
+        margin:0px;
+    }
+   
+  }
+.radio-container:hover input ~ .checkmark {
+  color: #fff;
+}
+
+.radio-container input:checked ~ .checkmark {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.radio-container .checkmark:after {
+  top: 9px;
+ left: 9px;
+ width: 0px;
+ height: 0px;
+ background: white;
+}
+
+
+
+@media (max-width: 700) {
+    .mx1-1{
+      background-color: red;
+    }    
+}
+@media (min-width: 700) {
+    .mx1-1{
+      margin: 10px;
+    }    
+}
+
+.ObPageTitle{
+  margin-bottom: 40px;
+}
+
+.bold {
+    font-family: F37Ginger;
+}
+
+
+
+//lines between
+.progressbar li:after {
+    width: 100%;
+    height: 2px;
+    content: '';
+    position: absolute;
+    background-color: #7d7d7d;
+    top: 15px;
+    left: -50%;
+    z-index: -1;
+}
+.progressbar li:first-child:after {
+    content: none;
+}
+//number
+.progressbar li.active {
+    border-color: $c1;
+    color: $c1;
+}
+//circle outer
+.progressbar li.active:before {
+    border-color: $c1;
+}
+.progressbar li.active + li:after {
+    background-color: $c1;
+}
+
+//number
+.progressbar li.disabled {
+  color: $c3  ;
+}
+//circle outer
+.progressbar li.disabled:before {
+  border-color: $c3;
+}
+.progressbar li.disabled + li:after {
+  background-color: $c8;
+}
+
+input.form-control.select_onboarding {
+    border-bottom: 2px solid $c7 !important;
+    &:focus{
+        border-bottom: 2px solid $c2 !important;
+    }
+}
+input.form-control.is-valid{
+    border-bottom: 2px solid $c2 !important;
+    color: $c2 !important;
+}
+
+input.form-control.is-invalid{
+    border-bottom: 2px solid $c8 !important;
+    color: $c2 !important;
+}
+
+textarea.form-control.select_onboarding{
+    border: 1px solid $c7 !important;
+    &:focus{
+        border: 1px solid $c2 !important;
+    }
+}
+
+textarea.form-control.is-valid{
+    border: 1px solid $c2 !important;
+}
+
+select.form-control.select_onboarding{
+    font-size: 1.0rem;
+    border: none;
+    background-color: white !important;
+    border-bottom: 2px solid $c7 !important;
+    &:focus{
+        border-bottom: 2px solid $c2 !important;
+    }
+}
+
+input.form-control[type="date"].select_onboarding{
+    border-bottom: 2px solid $c7 !important;
+    &:focus{
+        border-bottom: 2px solid $c2 !important;
+    }
+}
+
+input.form-control[type="date"].select_onboarding.is-valid{
+    border-bottom: 2px solid $c2 !important;
+}
+
+input.form-control[type="date"].select_onboarding.is-invalid{
+    border-bottom: 2px solid $c8 !important;
+}
+
+.btn-next7{
+    border: none;
+    background-color: $c7 !important;
+    color: $c2 !important;
+    max-width: 129px;
+    &:hover{
+        background-color: $c2 !important;
+        color: $c5 !important; 
+    }
+    &:focus{
+        box-shadow: none;
+        background-color: $c2 !important;
+        color: $c5 !important; 
+    }
+}
+
+.progressbar {
+    counter-reset: step;
+    width: 100%;
+
+}
+.progressbar li {
+    list-style-type: none;
+    width: 25%;
+    float: left;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    color: $c1;
+    margin:0 auto 0 auto;
+}
+//circles
+.progressbar li:before {
+    width: 30px;
+    height: 30px;
+    content: counter(step);
+    counter-increment: step;
+    line-height: 30px;
+    border: 2px solid $c1;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+    background-color: white;
+}
+
+//lines between
+.progressbar li:after {
+    width: 100%;
+    height: 2px;
+    content: '';
+    position: absolute;
+    background-color: $c1 !important;
+    top: 15px;
+    left: -50%;
+    z-index: -2;
+    color: !important;
+}
+.progressbar li:first-child:after {
+    content: none;
+}
+//number
+.progressbar li.active {
+    color: white !important;
+  }
+  .progressbar li.active p{
+    font-weight: 900;
+    font-size: 1rem;
+  }
+//circle outer
+.progressbar li.active:before {
+    border-color: $c1;
+    background-color: $c1;
+}
+.progressbar li.active + li:after {
+    background-color: $c2 
+}
+
+//Completed
+//number
+.progressbar li.completed {
+  color: white;
+}
+//circle outer
+.progressbar li.completed:before {
+  border-color: $c1;
+  background-color: $c1;
+}
+
+.progressbar li.completed + li:after {
+    background-color: $c1;
+  }
+
+
+
+.containerProgress li.disabled::before {
+    border-color: $c1 !important;
+    color: $c1 !important;
+}

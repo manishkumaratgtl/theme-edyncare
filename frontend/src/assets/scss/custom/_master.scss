@@ -1,0 +1,73 @@
+//Colour pallet for Edyne Care
+//At the top of every scss file, one must ' @import "./master"; ' to have access to the variables
+//then use it like "property: $tan;"
+$c1: #1D4042;
+$c2:#32525B;
+$c3:#66564A;
+$c4:#E4F4E9;
+$c5:#EDF4F7;
+$c6: #F2E6D0;
+$c7:#F9F7EF;
+$c8: #FF9999;
+.hoverDiv:nth-child(2n) {
+    background: #DCE8E0;
+}
+.hoverDiv {
+    background: #E0EDE3
+}
+.spanBlock  {
+    display: block;
+    font-size: 14px
+
+}
+
+.accordianCardBG{
+    background: #FBF8EF 
+}
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #F2989A;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #1D4042;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #F9F7EF;
+    cursor: pointer;
+}
+.btn-outline-status {
+    color:  #FF9999;
+    background-color: transparent;
+    background-image: none;
+    border-color: #FF9999;
+}
+.btn-outline-status.disabled, .btn-outline-status:disabled {
+    color:  #FF9999;
+    background-color: transparent;
+}
+.modal-body{
+    word-wrap: break-word;
+}

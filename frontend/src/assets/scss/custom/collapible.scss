@@ -1,0 +1,6 @@
+/* Simple show/hide */
+.panel .panel-body {
+  display: none; }
+
+.panel.is-expanded .panel-body {
+  display: block; }
